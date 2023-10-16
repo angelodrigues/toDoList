@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.com.angelodrigues</groupId>
 	<artifactId>toDoList</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>toDoList</name>
 	<description> Task Manager</description>
 	<properties>
@@ -48,7 +48,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
-			<option>true</option>
+			<optional>true</optional>
 		</dependency>
 
 		<dependency>
