@@ -1,0 +1,43 @@
+.inputData{
+    width: 44.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    font-size: 1.5vh;
+    text-decoration: none;
+}
+
+button {
+    margin-top: 2vh;
+    margin-left: 25%;
+    background-color:rgb(50, 66, 112);
+    border: 0 rgb(50, 66, 112);
+    border-radius: 0.4vh;
+    text-decoration: none;
+    padding: 0.8vh;
+    width: 50%;
+    color: white;
+    transition: filter 0.5s;
+}
+
+button:hover {
+    filter: brightness(75%);
+}
+
+.inputData {
+    gap: 0.6vh;
+}
+
+label {
+    color: white;
+}
+
+.inputData input {
+    padding: 0.5vh;
+    border-radius: 0.4vh;
+    border: 0 gray;
+    width: 100%;
+    background-color: gray;
+}
