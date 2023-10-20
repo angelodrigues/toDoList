@@ -10,7 +10,7 @@ a{
 }
 
 button {
-    margin-top: 0.8vh;
+    margin-top: 3vh;
     background-color:rgb(50, 66, 112);
     border: 0 rgb(50, 66, 112);
     border-radius: 0.4vh;
@@ -40,3 +40,26 @@ label {
     width: 100%;
     background-color: gray;
 }
+
+.react-modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.react-modal-content {
+    width: 100%;
+    max-width: 57vh;
+    background: rgb(78, 77, 77);
+    padding: 3rem;
+    position: fixed;
+    border-radius: 0.25rem;
+}
+  
