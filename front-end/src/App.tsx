@@ -3,7 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Login } from './pages/login/Login';
 import { Register } from './pages/register/Register';
 import { Tasks } from './pages/tasks/Tasks';
+import Modal from 'react-modal';
 import './App.css';
+
+Modal.setAppElement('#root');
 
 type Headers = {
   Authorization: string;
